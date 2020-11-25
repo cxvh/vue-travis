@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "14.15.1"
+
+cache:
+  # 去缓存 yarn 安装过程中的一些依赖包
+  yarn: true
+
+install:
+  - yarn install
+
+script:
+  - npm run build
