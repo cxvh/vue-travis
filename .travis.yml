@@ -22,4 +22,4 @@ deploy:
   name: cxvh
   email: 630749264@qq.com
   on:
-    branch: master
+    branch: main
